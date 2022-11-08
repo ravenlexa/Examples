@@ -37,7 +37,7 @@ Console.WriteLine(year);*/
 
 
 //Вид 4
-string Method4 (int count, string text)
+/*string Method4 (int count, string text)
 {
     int i = 0;
     string result = string.Empty;
@@ -49,4 +49,25 @@ string Method4 (int count, string text)
     return result;
 }
 string res = Method4(10,"10");
-Console.WriteLine(res);
+Console.WriteLine(res);*/
+
+/*string Method41 (int count, string text)
+{
+    string result = string.Empty;
+    for (int i = 0; i < count; i++)
+    {
+        result = result + text;
+    }
+    return result;
+}
+string res = Method41(10,"10");
+Console.WriteLine(res);*/
+
+for (int i = 2; i <= 10; i++)
+{
+    for (int j = 2; j <= 10; j++)
+    {
+        Console.WriteLine($"{i} x {j} = {i * j}");
+    }
+    Console.WriteLine();
+}
